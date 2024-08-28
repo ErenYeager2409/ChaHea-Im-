@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 29422639
+API_HASH = "e21bccfd64a01c5762ce81c77379dc7f"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7381512423:AAFCqLDGj220rwWbuCCh53ehaw1RdIvp-KY"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Aaru:AaruAaru@cluster0.qthztcs.mongodb.net/?retryWrites=true&w=majority"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1001739122591
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 5106602523
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/Anime_Spectrum_Network"
+SUPPORT_GROUP = "https://t.me/Ahjin_Sprt"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQHA9C8ARNMzFOb6GKstU6KucJIWgWiDpmZUvjnXU7-Cqvdzbxd_vQyAlEIyPalG7iNluGAM7ybcBL7N1MfCsOMuu3V9MABaChECqeFoOI5bsLohEgKhQTxfsAQUm7cdSR3X6t1Ns9gV6H1wr_NT50hZr2xcWL_Km0pFthFKdZNTMAFct4KmDeW3IaGlkBHv7qCcZ0eOPewyGJ5s3W0d7BTE-H_eQvk71qI1b-3Hb4q8J-xLm1N3FSf5hIItNiS5AzTWlFxpj6-whz21wRywecQnKOhuohZA5_fLACTj48Dknoei4s9NR9RYkc3i9LIRuBQX9bL_vJTISzSlaPiex-SfDPADvAAAAAGr6KdBAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
